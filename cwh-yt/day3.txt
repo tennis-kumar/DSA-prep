@@ -1,0 +1,10 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 16-11-24
+Language: C/C++
+
+
+Topics covered:
+
+    1 - intro to Arrays and Abstract Data Types
+    2 - Arrays as Abstract Data Types
+        2.1 - Implementation Array as ADT 

@@ -1,0 +1,52 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 15-11-24
+Language: C/C++
+
+
+Topics covered:
+
+    1 - intro to Asymptotic Notations
+
+    2 - Types of asymptotic notations:
+
+        2.1 - Big O : a function f(n) is Big O, iff {0<=f(n)<=Cg(n)} for all n >= n0
+        2.2 - Big Omega : a function f(n) is Big Omega, iff {0<=Cg(n)<=f(n)} for all n >= n0
+        2.3 - Big Theta : a function f(n) is Big Theta, iff it is Big O and Big Omega, i.e, {0<=f(n)<=C1g(n) and 0<=C2g(n)<=f(n) ~ c2g(n)<=f(n)<=c1g(n)}  for all n >=n0
+    
+    3 - Best Case, Worst Case and Average/Expected Case Analysis of an Algorithm
+
+        3.1 Best Case -> O(1) [Tn = K]
+        3.2 Worst Case -> O(n) [Tn = nK]
+        3.3 Average case -> O( (sum of all possibilities) / (total no of possibilities) ) 
+        
+        3.4 Examples :
+
+            3.4.1 - Algo 1 : 
+                for array of size n : `when using Sequential search`
+                    Avg case = (([k+2k+3k+.........+nk]+[nk])/n+1)
+                    Avg Case = k[((1+2+3+.....+n+n)/n+1)]
+                    Avg Case = k[((n(n+1)/2)+n)/n+1]   `reduced using formula for sum of series in a.p`
+                    Avg Case = k[ (n^2 + n + 2n) / 2(n+1) ]
+                    Avg Case = (k/2)[n(n+1) / n+1]
+                    Avg Case = k/2(n) ~= O(n)   `here k/2 is constant`
+                    Avg Case = O(n)
+
+            3.4.2 - Algo 2 :
+                for a sorted array of size n : `when using Binary search`
+                    Best Case = O(1)
+                    Worst Case = O(log(n))
+    
+    4 - Space Complexity :
+    
+        for an array of size x -> O(x) is the space Complexity
+        If a function calls itself recursively n times its space complexity is O(n)
+
+
+    5 - Time Complexity - Tips & tricks :
+        
+        5.1 - Ignore the non dominant terms
+        5.2 - Drop the constanst term
+        5.3 - Break the code into Fragments
+    
+    6 - explored few code snippets and calculated their time complexities 
+                            

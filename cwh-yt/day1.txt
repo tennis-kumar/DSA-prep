@@ -1,0 +1,15 @@
+------------------------------------ DSA Prep Day 1 ----------------------------------------------
+Start Date: 14-11-24
+Language: C/C++
+Source - youtube (code with harry)
+
+
+Topics covered:
+    - intro to DSA
+    - intro to how memory is allocated for a program, 
+    - intro on how memory is utilised in Stack, when to use Heap
+    
+    - Intro to Time complexity and Big O notation
+        Time complexity : It is the study of the efficiency of the algorithm
+            - O(1) : time always remains constanst irrespective of size of operation 
+            - O(n) : runs with a linear time, i.e, time taken to complete operation increases if the size of the operation increases
