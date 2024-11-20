@@ -1,0 +1,9 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 20-11-24
+Language: C++
+
+
+Topics covered:
+
+    1 - introduction to Linked List
+        Linked List vs Arrays differences, pros and cons
