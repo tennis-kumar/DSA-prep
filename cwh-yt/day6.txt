@@ -7,3 +7,9 @@ Topics covered:
 
     1 - introduction to Linked List
         Linked List vs Arrays differences, pros and cons
+        
+        1.1 - Operations on Linked Lists : 
+            Creation, 
+            Traversal, 
+            Insertion at Beginning,End and at custom position 
+            Deletion at Beginning,End and at custom position
