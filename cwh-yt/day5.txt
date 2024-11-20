@@ -1,0 +1,12 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 19-11-24
+Language: C/C++
+
+
+Topics covered:
+
+    1 - Linear Search & Binary Search with code continuation  (Binary Search only works when the array is sorted)
+        1.1 - time complexity of linear search is O(n)
+              time complexity of Binary search is O(log(n))
+    
+    2 - introduction to Linked List
