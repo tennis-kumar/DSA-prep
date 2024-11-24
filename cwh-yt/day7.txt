@@ -1,0 +1,38 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 24-11-24
+Language: C++
+
+
+Topics covered:
+
+    1 - introduction to Circular Linked List
+        Circular Linked List is a Linked list where the last node points to the head node
+        
+    2 - Operations on Circular Linked List
+        insertion,deletion same as normal linked list
+        in insertion the node is inserted at the end at most cases and the head pointer is updated to point the relevent node
+    
+    3 - introduction to Doubly Linked Lists
+        Operations on Doubly Linked Lists
+        the main difference is there will be a pointer prev which will store address of the previous node
+    
+    4 - introduction to Stack data structure
+        it is a data structure which follows LIFO Order, i.e, the last element inserted will be the first element which can be deleted
+        Stack can be implemented using an Arrays or a Linked List
+
+        4.1 - Application of Stack:
+            Used in function calls
+            Infix to postfix conversions (and other similar conversions)
+            paranthesis matching & more...
+        
+        4.2 - Operations that can be performed on Stack:
+            push() - push/insert an element into the Stack
+            pop() - pop/remove the topmost element from the Stack
+            peek(index) - value at given index is returned
+            isEmpty() - check if Stack is Empty
+            isFull() - check if Stack is Full
+        
+        4.3 - Some Operations on Stack with code
+            C++ has builtin library/implementaion of Stack under the STL library
+            Stack implementaion using Arrays can be found in StackArray.cpp file
+            linked list implementaion of Stack is the same as a singly linkedlist (SLL), which can only insert/delete at the End
