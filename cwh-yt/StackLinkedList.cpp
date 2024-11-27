@@ -21,7 +21,8 @@ class Stack {
 
 public:
     // Constructor to initialize the stack
-    Stack() { this->head = nullptr; }
+    // Stack() { this->head = nullptr; }  // alternative syntax
+    Stack(): head(nullptr){}
 
     // Function to check if the stack is empty
     bool isEmpty() {

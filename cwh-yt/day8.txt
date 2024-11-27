@@ -1,0 +1,18 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 27-11-24
+Language: C++
+
+
+Topics covered:
+
+    1 - Stack refresh 
+        Stack implementaion in Linked list
+        stack is also used when converting expression from infix to postfix
+        also, stack can be used to validate an expression whether it is balanced or not
+
+        1.1 - Parenthesis matching program using Stack
+        
+    2 - Intro to Infix, Prefix and Postfix notations
+        2.1 - Infix - in infix notation operators are placed between operands, eg: a+b*c, a+b, etc..
+        2.2 - Prefix - in Prefix notation operators are written before the operands, eg: +ab
+        2.3 - Postfix - in postfix notation, operators are written after the operands, eg: ab+
