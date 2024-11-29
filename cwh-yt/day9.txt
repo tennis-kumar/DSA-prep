@@ -1,0 +1,15 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 30-11-24
+Language: C++
+
+
+Topics covered:
+    1 - Infix, Postfix and Prefix
+        operators  Precedence
+        (  )            3
+        * /             2
+        + -             1
+        
+        follow the precedence table for exact precedence and order of execution details
+
+        1.1 - conversion Infix to prefix, Infix to Postfix
