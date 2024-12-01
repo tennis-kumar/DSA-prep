@@ -4,6 +4,8 @@
         "*.C": "c",
         "ostream": "cpp",
         "variant": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "queue": "cpp",
+        "deque": "cpp"
     }
 }

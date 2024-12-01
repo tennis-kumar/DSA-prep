@@ -1,0 +1,38 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 1-12-24
+Language: C++
+
+
+Topics covered:
+
+    1 - Infix to Postfix conversion using Stack
+
+    2 - Intro to Queue 
+        Queue follows FIFO - First In First Out, i.e, First element in will be the first element to come out
+        Queue is available directly via STL in C++, can also be implemented using array
+        
+        2.1 - methods in Queue :
+            1 - ENQUEUE - insertion
+            2 - DEQUEUE - Deletion
+            3 - FistVal - value at first pos
+            4 - LastVal - value at Last pos
+            5 - peek(pos) - value at given pos
+            6 - isEmpty - check if queue is empty
+            7 - isFull - check if queue is full 
+        
+        2.2 - implementaion techniques:
+            1 - using Array
+            2 - using LinkedList
+            3 - using ADT's
+        
+        2.3 - Functions/operations available in queue STL implementation
+            1 - empty() - returns whether queue is empty (true/false)
+            2 - size() - returns the size of the queue
+            3 - emplace() - insert new element to the end of the queue
+            4 - front() - returns reference to first element of the queue
+            5 - back() - returns reference to the last element of the queue
+            6 - push(g) - add element 'x' at the end of the queue
+            7 - pop() - Deletes the first element of the queue
+            8 - swap() - Exchange the contents of two queues but the queues must be of the same data type, although sizes may differ.
+        
+        2.4 - Code : Implementation of Queue using Queue(STL),array,Linkedlist
