@@ -12,8 +12,8 @@ Topics covered:
         Queue is available directly via STL in C++, can also be implemented using array
         
         2.1 - methods in Queue :
-            1 - ENQUEUE - insertion
-            2 - DEQUEUE - Deletion
+            1 - push - insertion
+            2 - pop - Deletion
             3 - FistVal - value at first pos
             4 - LastVal - value at Last pos
             5 - peek(pos) - value at given pos

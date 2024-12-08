@@ -1,0 +1,16 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 8-12-24
+Language: C++
+
+
+Topics covered:
+
+    1 - Intro to Circular Queue
+        1.1 Drawbacks of using Queue with Array:
+            - Space is not used efficiently
+        
+        1.2 Methods in Circular Queue
+            - EnQueue - Insert element into circular queue
+            - DeQueue - Delete the last element of the Queue
+        
+        1.3 - Implemented Circular Queue using Arrays and class
