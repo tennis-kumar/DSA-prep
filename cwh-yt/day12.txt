@@ -1,0 +1,14 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 9-12-24
+Language: C++
+
+
+Topics covered:
+
+    1 - Implementation of Queue using Linkedlist
+    
+    2 - Introduction to Double Ended Queues
+        DEQueue or Double Ended Queue is a generalized version of Queue that allows insert and delete at both ends
+        it can be implemented using circular array and Linkedlist
+
+        2.1 - Implementation of DeQueue using Doubly Linkedlist
