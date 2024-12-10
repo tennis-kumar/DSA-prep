@@ -1,0 +1,39 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 10-12-24
+Language: C++
+
+
+Topics covered:
+
+    1 - Revisit DoubleEnded Queue
+       1.1 - Time Complexity of insertion and deletion is O(1)
+    
+    2 - Introduction to Sorting Algorithms    
+        2.1 - There two ways of sorting Ascending and Descending
+    
+    3 - Analysis Criteria for selecting/choosing a Sorting Algorithm:
+        1 - Time Complexity
+        2 - Space Complexity
+            eg: Inplace Sorting Algorithm (use constant space irrespective or input array size)
+        3 - Stability:
+            The stability of an algorithm is judged by the fact whether the order of the elements having equal status when sorted on some basis is preserved or not. 
+            Suppose you have a set of numbers, 6, 1, 2, 7, 6, and we want to sort them in increasing order by using an algorithm. 
+            Then the result would be 1, 2, 6, 6, 7. But the key thing to look at is whether the 6s follow the same order as that given in the input or they have changed. That is, whether the first 6 still comes before the second 6 or not. 
+            If they do, then the algorithm we followed is called stable, otherwise unstable.
+
+        4 - Internal and external sorting algorithms
+                Internal -> all data is loaded into memory(RAM)
+                External -> all data is not loaded into memory(RAM)
+        5 - Adaptive - can be used anywhere and in anytime
+                eg: trying to sort an array which is already sorted, in such case this type of algo takes less time and is more efficient
+        6 - Recursive/Non-Recursive Sorting Algorithms
+                Recursive if it uses recursion
+
+    4 - Bubble Sort Sorting Algorithm:
+            Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.
+            This algorithm is not suitable for large data sets as its average and worst-case time complexity are quite high.
+            The Time Complexity of Bubble Sort Algorithm is O(n^2)
+
+            1 - We sort the array using multiple passes. After the first pass, the maximum element goes to end (its correct position). Same way, after second pass, the second largest element goes to second last position and so on.
+            2 - In every pass, we process only those elements that have already not moved to correct position. After k passes, the largest k elements must have been moved to the last k positions.
+            3 - In a pass, we consider remaining elements and compare all adjacent and swap if larger element is before a smaller element. If we keep doing this, we get the largest (among the remaining elements) at its correct position.
