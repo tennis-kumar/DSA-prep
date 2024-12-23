@@ -20,7 +20,7 @@ void bubbleSort(vector<int>& arr){
             }
         }
 
-        if(!swapped)break;
+        if(!swapped)break; // this is to handle the case when the array is already sorted or the sorting is done in less than n-1 passes
     }
 }
 

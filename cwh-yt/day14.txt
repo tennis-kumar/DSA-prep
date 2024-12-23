@@ -1,0 +1,17 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 23-12-24
+Language: C++
+
+
+Topics covered:
+
+    1 - Revisit Bubble Sort:
+        1.1 - Time Complexity is O(n^2)
+        1.2 - Is is a stable sorting algorithm ?
+            Yes, it is a stable sorting algorithm
+            as order is same as input array
+        1.3 - Is it an adaptive sorting algorithm ?
+            By default, it is not an adaptive sorting algorithm
+            it is made an adaptive sorting algorithm
+            as it can be optimized for already sorted array
+        1.4 - the time Complexity can be under O(n) for already sorted array
