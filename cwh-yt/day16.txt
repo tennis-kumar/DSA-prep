@@ -1,0 +1,12 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 24-12-24
+Language: C++
+
+
+Topics covered:
+
+    1 - Quick Sort Analysis
+        1.1 - Quick Sort is a Recursive Algorithm
+        1.2 - Qucik Sort Follows the Divide and Conquer Approach
+        1.3 - all the manipulations, partions and swapping, everything is done on the original array, there are is need to use/create new array for the partitions.
+        1.4
