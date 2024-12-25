@@ -1,0 +1,9 @@
+------------------------------------ DSA Prep ----------------------------------------------
+Date: 24-12-24
+Language: C++
+
+
+Topics covered:
+
+    1 - Revisit Selection Sort
+    2 - intro to Quick Sort
