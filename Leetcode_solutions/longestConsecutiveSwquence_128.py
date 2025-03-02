@@ -6,9 +6,11 @@ class Solution(object):
         """
         numSet = set(nums)
         longest = 0
-        # length = 0
 
-        for n in nums:
+        if not nums:
+            return 0
+
+        for n in numSet:
             # check if its the start of a sequence
             if (n-1) not in numSet:
                 length = 0
