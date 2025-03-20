@@ -1,19 +1,19 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
-        l, r = 1, max(piles)
-        res = r
+        left, right = 1, max(piles)
+        optimal_speed = right
 
-        while l <= r:
-            k = (l + r) // 2
-            hours = 0
+        while left <= right:
+            mid_speed = (left + right) // 2
+            required_hours = 0
 
-            for p in piles:
-                hours += math.ceil(p / k)
+            for pile in piles:
+                required_hours += math.ceil(pile / mid_speed)
 
-            if hours <= h:
-                res = min(res,k)
-                r = k -1
+            if required_hours <= h:
+                optimal_speed = min(optimal_speed, mid_speed)
+                right = mid_speed - 1
             else:
-                l = k + 1
+                left = mid_speed + 1
 
-        return res
+        return optimal_speed
